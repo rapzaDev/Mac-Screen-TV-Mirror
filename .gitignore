@@ -1,0 +1,11 @@
+.build/
+build/
+dist/
+artifacts/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+receiver/tizen/.buildResult/
+*.wgt
+__pycache__/
+*.pyc

@@ -1,0 +1,61 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+3C2DE0577637DCE0FB0A0250 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Audio.swift"; sourceTree = "<group>"; };
+670FEC9C7967F458D634ED71 = { isa = PBXBuildFile; fileRef = 3C2DE0577637DCE0FB0A0250; };
+D82E74E94132D22843244450 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Capture.swift"; sourceTree = "<group>"; };
+C04D6183B1E056AB248D5368 = { isa = PBXBuildFile; fileRef = D82E74E94132D22843244450; };
+A23C030794E845966406D121 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/CompatibilityCapture.swift"; sourceTree = "<group>"; };
+E467BB48373158FC26D77CF0 = { isa = PBXBuildFile; fileRef = A23C030794E845966406D121; };
+805D8ABFA7A3B6E050B61F4C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Discovery.swift"; sourceTree = "<group>"; };
+3958AAE3794F557DA2B9AEDB = { isa = PBXBuildFile; fileRef = 805D8ABFA7A3B6E050B61F4C; };
+C342F5851F977CDCA3011EA7 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Encoder.swift"; sourceTree = "<group>"; };
+62E1ADE302CC2B4A82D7AC89 = { isa = PBXBuildFile; fileRef = C342F5851F977CDCA3011EA7; };
+44A4F25E2137F5C1DE0A48BB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/HTTPServer.swift"; sourceTree = "<group>"; };
+7B32B7AC561B4FC4A9042B81 = { isa = PBXBuildFile; fileRef = 44A4F25E2137F5C1DE0A48BB; };
+E7EAAF061514D6C4EAB182CB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Models.swift"; sourceTree = "<group>"; };
+49454D83963B8CC31058D9F6 = { isa = PBXBuildFile; fileRef = E7EAAF061514D6C4EAB182CB; };
+D231ABAA82ECEB90D65EB295 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Muxer.swift"; sourceTree = "<group>"; };
+D0ACDCBAFE1E35D4DB93BA50 = { isa = PBXBuildFile; fileRef = D231ABAA82ECEB90D65EB295; };
+87E6067D9389337098E97BEE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/Core/Session.swift"; sourceTree = "<group>"; };
+2A3C10278EBCC31952B17726 = { isa = PBXBuildFile; fileRef = 87E6067D9389337098E97BEE; };
+FF7D31A6157EDDBB9771EF14 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/App/LatencyView.swift"; sourceTree = "<group>"; };
+D0243104BFBACECAEC216166 = { isa = PBXBuildFile; fileRef = FF7D31A6157EDDBB9771EF14; };
+AA09CEA5A3BB49EEF7B29146 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/App/MacMirrorApp.swift"; sourceTree = "<group>"; };
+48FD0F206DC6BF6D7D21C1B0 = { isa = PBXBuildFile; fileRef = AA09CEA5A3BB49EEF7B29146; };
+4882023DE39B1C89978C806F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "macos/App/MainView.swift"; sourceTree = "<group>"; };
+9487982D29D34EC8A26D9BB8 = { isa = PBXBuildFile; fileRef = 4882023DE39B1C89978C806F; };
+CA84D1343B96BAA8137C943E = { isa = PBXFileReference; lastKnownFileType = folder; path = receiver/web; sourceTree = "<group>"; };
+F163761556E4FCE3571A4014 = { isa = PBXBuildFile; fileRef = CA84D1343B96BAA8137C943E; };
+F8995BA5891B07E328C60D6B = { isa = PBXFileReference; lastKnownFileType = image.icns; path = macos/Resources/MacMirror.icns; sourceTree = "<group>"; };
+74C2431FE30C4A47C8443B80 = { isa = PBXBuildFile; fileRef = F8995BA5891B07E328C60D6B; };
+38A007151ABE87CC01A5B6E9 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = MacMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (38A007151ABE87CC01A5B6E9,); name = Products; sourceTree = "<group>"; };
+64292B1C2B2E13EAD8788FC8 = { isa = PBXGroup; children = (3C2DE0577637DCE0FB0A0250,D82E74E94132D22843244450,A23C030794E845966406D121,805D8ABFA7A3B6E050B61F4C,C342F5851F977CDCA3011EA7,44A4F25E2137F5C1DE0A48BB,E7EAAF061514D6C4EAB182CB,D231ABAA82ECEB90D65EB295,87E6067D9389337098E97BEE,FF7D31A6157EDDBB9771EF14,AA09CEA5A3BB49EEF7B29146,4882023DE39B1C89978C806F,CA84D1343B96BAA8137C943E,F8995BA5891B07E328C60D6B,FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (670FEC9C7967F458D634ED71,C04D6183B1E056AB248D5368,E467BB48373158FC26D77CF0,3958AAE3794F557DA2B9AEDB,62E1ADE302CC2B4A82D7AC89,7B32B7AC561B4FC4A9042B81,49454D83963B8CC31058D9F6,D0ACDCBAFE1E35D4DB93BA50,2A3C10278EBCC31952B17726,D0243104BFBACECAEC216166,48FD0F206DC6BF6D7D21C1B0,9487982D29D34EC8A26D9BB8,); runOnlyForDeploymentPostprocessing = 0; };
+0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (F163761556E4FCE3571A4014,74C2431FE30C4A47C8443B80,); runOnlyForDeploymentPostprocessing = 0; };
+7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+D08DD63EED508AD30D0CB0B4 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 14.0; CLANG_ENABLE_MODULES = YES; }; };
+7082CC0B6FC1282FCEABD07A = { isa = XCBuildConfiguration; name = Debug; buildSettings = {
+ PRODUCT_NAME = MacMirror; PRODUCT_BUNDLE_IDENTIFIER = local.macmirror.app;
+ INFOPLIST_FILE = macos/Resources/Info.plist; GENERATE_INFOPLIST_FILE = NO;
+ SWIFT_VERSION = 5.0; SWIFT_STRICT_CONCURRENCY = minimal;
+ SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+ CODE_SIGN_STYLE = Manual; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO;
+ LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+ CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; COMBINE_HIDPI_IMAGES = YES;
+ }; };
+811CB99F7A296F7846C18A7F = { isa = XCBuildConfiguration; name = Release; buildSettings = { SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 14.0; CLANG_ENABLE_MODULES = YES; }; };
+639A7CA24D39909E713B47F7 = { isa = XCBuildConfiguration; name = Release; buildSettings = {
+ PRODUCT_NAME = MacMirror; PRODUCT_BUNDLE_IDENTIFIER = local.macmirror.app;
+ INFOPLIST_FILE = macos/Resources/Info.plist; GENERATE_INFOPLIST_FILE = NO;
+ SWIFT_VERSION = 5.0; SWIFT_STRICT_CONCURRENCY = minimal;
+ SWIFT_OPTIMIZATION_LEVEL = "-O";
+ CODE_SIGN_STYLE = Manual; CODE_SIGN_IDENTITY = "-"; ENABLE_APP_SANDBOX = NO;
+ LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+ CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; COMBINE_HIDPI_IMAGES = YES;
+ }; };
+862894B703A6DEDF96A9DD6C = { isa = XCConfigurationList; buildConfigurations = (D08DD63EED508AD30D0CB0B4,811CB99F7A296F7846C18A7F,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+C57128001CE614BF8549D6BB = { isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = C57128001CE614BF8549D6BB; buildPhases = (BCE16DD0260827ECF338C787,7561BFB015D8F536760CB671,0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); name = MacMirror; productName = MacMirror; productReference = 38A007151ABE87CC01A5B6E9; productType = "com.apple.product-type.application"; };
+98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastSwiftUpdateCheck = 2620; LastUpgradeCheck = 2620; }; buildConfigurationList = 862894B703A6DEDF96A9DD6C; compatibilityVersion = "Xcode 14.0"; developmentRegion = pt; hasScannedForEncodings = 0; knownRegions = (pt,en,Base); mainGroup = 64292B1C2B2E13EAD8788FC8; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
+}; rootObject = 98F54143AB4E86B28C3AFEE0; }

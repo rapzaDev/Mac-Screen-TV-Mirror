@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>MacMirror</string><key>CFBundleName</key><string>MacMirror</string><key>CFBundleDisplayName</key><string>MacMirror</string>
+<key>CFBundleIdentifier</key><string>local.macmirror.app</string><key>CFBundlePackageType</key><string>APPL</string><key>CFBundleShortVersionString</key><string>1.0</string><key>CFBundleVersion</key><string>1</string>
+<key>CFBundleIconFile</key><string>MacMirror.icns</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string><key>NSHighResolutionCapable</key><true/>
+<key>NSScreenCaptureUsageDescription</key><string>MacMirror captura a tela escolhida somente durante a transmissão local iniciada por você.</string>
+<key>NSAudioCaptureUsageDescription</key><string>MacMirror captura o áudio de saída dos aplicativos para reproduzi-lo na sua TV durante o espelhamento iniciado por você. O microfone não é capturado.</string>
+<key>NSLocalNetworkUsageDescription</key><string>MacMirror encontra sua TV e transmite vídeo somente pela rede local.</string>
+<key>NSAppTransportSecurity</key><dict><key>NSAllowsLocalNetworking</key><true/><key>NSAllowsArbitraryLoads</key><true/></dict>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+</dict></plist>
